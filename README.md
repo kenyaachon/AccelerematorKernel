@@ -58,3 +58,30 @@ i2cset
 
 i2cget
 ```
+
+## Lab 6 General Setup
+
+```
+sudo apt-get update
+
+sudo apt-get install raspberrypi-kernel-headers
+
+```
+
+Insert kernel module
+
+```
+sudo insmod accel.ko
+```
+
+See all Kernel Modules
+
+```
+lsmod
+```
+
+Remove kernel module
+
+```
+sudo rmmod accel
+```
